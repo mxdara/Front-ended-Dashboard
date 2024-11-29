@@ -1,5 +1,5 @@
 export interface Post {
-    id: number;
+    id: string;
     title: string;
     body: string;
     author: string;
@@ -8,7 +8,7 @@ export interface Post {
 }
 
 export interface Comment {
-    id: number;
+    id: string;
     text: string;
     username: string;
 }

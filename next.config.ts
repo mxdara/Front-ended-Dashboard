@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: '/Front-ended-Dashboard',
+  assetPrefix: '/Front-ended-Dashboard/',
+  output: 'export',
 };
 
 export default nextConfig;

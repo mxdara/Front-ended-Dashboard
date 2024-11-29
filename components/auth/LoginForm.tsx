@@ -42,7 +42,7 @@ function LoginForm() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button>Save changes</Button>
+            <Button>Login </Button>
           </CardFooter>
         </Card>
       
